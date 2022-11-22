@@ -1,0 +1,10 @@
+FROM node:16
+WORKDIR /app
+COPY ./package.json ./package.json
+COPY ./index.js ./index.js
+COPY ./Controllers/memberController.js ./Controllers/memberController.js
+COPY ./Model/Member.js ./Model/Member.js
+COPY ./Route/memberRoute.js ./Route/memberRoute.js
+RUN npm install
+EXPOSE 4042
+CMD ["node", "index.js"]

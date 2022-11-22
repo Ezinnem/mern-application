@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  margin-top: 1%;
+}
+.create-form{
+  width: 100%;
+  align-items: center;
+}
+
+.create-form > input {
+  background-color: rgb(240, 226, 226);
+  border: #f0f5f7;
+  color: rgb(27, 27, 26);
+  width: 50%;
+  margin: 0.5%;
+  padding: 0.5%;
+}
+/* background-color: rgb(93, 102, 187); */
+/* border: rgb(93, 102, 187); */
+.submit-button{
+  background-color: rgb(56, 184, 52);
+  border: rgb(56, 184, 52);
+  padding: 0.5%;
+  width: 25%;
+  color: rgb(234, 234, 240);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.submit-button:hover{
+  background-color: rgb(11, 163, 6);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+.edit-member {
+  background-color: rgb(54, 54, 179);
+  color: #f0f5f7;
+  padding: 1%;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.delete-member{
+  background-color: rgb(199, 8, 8);
+  color: #f0f5f7;
+  padding: 1%;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.delete-member:hover {
+  background-color: red;
+  color: #fafafa;
+  font-weight: 500;
+}
+.edit-member:hover {
+  background-color: rgb(0, 4, 255);
+  color: #fafafa;
+  font-weight: 500;
+}
+.edit-form-container {
+  width: 100%;
+}
+
+.edit-detail-text {
+  color: rgb(25, 25, 75);
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-left: 20%;
+  margin-top: 3%;
+  padding: 3%;
+
+}
+
+.edit-form > input {
+  width: 100%;
+  margin: 1%;
+  padding: 2%;
+  color: rgb(25, 25, 75);
+}
+.edit-form{
+
+  width: 100%;
+  padding: 5%;
+}
+
+.submit-edit-button {
+  background-color: rgb(93, 102, 187);
+  padding: 1%;
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 55%;
+  color: rgb(234, 234, 240);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.submit-edit-button:hover{
+  background-color: rgb(47, 2, 248);
+  font-weight:900;
+  color: rgb(255, 255, 255);
+}
+.close-modal {
+  background-color: rgb(126, 29, 44);
+  width: 50%;
+  margin-left: 28%;
+  margin-bottom: 5%;
+  color: rgb(234, 234, 240);
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.close-modal:hover {
+  background-color: rgb(247, 4, 4);
+  font-weight:900;
+  color: rgb(255, 255, 255);
+}
